@@ -1,0 +1,6 @@
+framework module Pods_GraffitiFinder {
+  umbrella header "Pods-GraffitiFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}
