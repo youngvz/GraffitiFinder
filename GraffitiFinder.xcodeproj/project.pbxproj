@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FAB9111DDA93B000548917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FAB9101DDA93B000548917 /* AppDelegate.swift */; };
+		03FAB9131DDA93B000548917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FAB9121DDA93B000548917 /* ViewController.swift */; };
+		03FAB9161DDA93B000548917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FAB9141DDA93B000548917 /* Main.storyboard */; };
+		03FAB9191DDA93B000548917 /* GraffitiFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03FAB9171DDA93B000548917 /* GraffitiFinder.xcdatamodeld */; };
+		03FAB91B1DDA93B000548917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FAB91A1DDA93B000548917 /* Assets.xcassets */; };
+		03FAB91E1DDA93B000548917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FAB91C1DDA93B000548917 /* LaunchScreen.storyboard */; };
+		03FAB9291DDA93B000548917 /* GraffitiFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FAB9281DDA93B000548917 /* GraffitiFinderTests.swift */; };
+		03FAB9341DDA93B000548917 /* GraffitiFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FAB9331DDA93B000548917 /* GraffitiFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FAB9251DDA93B000548917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FAB9051DDA93B000548917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FAB90C1DDA93B000548917;
+			remoteInfo = GraffitiFinder;
+		};
+		03FAB9301DDA93B000548917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FAB9051DDA93B000548917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FAB90C1DDA93B000548917;
+			remoteInfo = GraffitiFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FAB90D1DDA93B000548917 /* GraffitiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraffitiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FAB9101DDA93B000548917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03FAB9121DDA93B000548917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03FAB9151DDA93B000548917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03FAB9181DDA93B000548917 /* GraffitiFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraffitiFinder.xcdatamodel; sourceTree = "<group>"; };
+		03FAB91A1DDA93B000548917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FAB91D1DDA93B000548917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03FAB91F1DDA93B000548917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FAB9241DDA93B000548917 /* GraffitiFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitiFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FAB9281DDA93B000548917 /* GraffitiFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiFinderTests.swift; sourceTree = "<group>"; };
+		03FAB92A1DDA93B000548917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FAB92F1DDA93B000548917 /* GraffitiFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitiFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FAB9331DDA93B000548917 /* GraffitiFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiFinderUITests.swift; sourceTree = "<group>"; };
+		03FAB9351DDA93B000548917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FAB90A1DDA93B000548917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAB9211DDA93B000548917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAB92C1DDA93B000548917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FAB9041DDA93B000548917 = {
+			isa = PBXGroup;
+			children = (
+				03FAB90F1DDA93B000548917 /* GraffitiFinder */,
+				03FAB9271DDA93B000548917 /* GraffitiFinderTests */,
+				03FAB9321DDA93B000548917 /* GraffitiFinderUITests */,
+				03FAB90E1DDA93B000548917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03FAB90E1DDA93B000548917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FAB90D1DDA93B000548917 /* GraffitiFinder.app */,
+				03FAB9241DDA93B000548917 /* GraffitiFinderTests.xctest */,
+				03FAB92F1DDA93B000548917 /* GraffitiFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FAB90F1DDA93B000548917 /* GraffitiFinder */ = {
+			isa = PBXGroup;
+			children = (
+				03FAB9101DDA93B000548917 /* AppDelegate.swift */,
+				03FAB9121DDA93B000548917 /* ViewController.swift */,
+				03FAB9141DDA93B000548917 /* Main.storyboard */,
+				03FAB91A1DDA93B000548917 /* Assets.xcassets */,
+				03FAB91C1DDA93B000548917 /* LaunchScreen.storyboard */,
+				03FAB91F1DDA93B000548917 /* Info.plist */,
+				03FAB9171DDA93B000548917 /* GraffitiFinder.xcdatamodeld */,
+			);
+			path = GraffitiFinder;
+			sourceTree = "<group>";
+		};
+		03FAB9271DDA93B000548917 /* GraffitiFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				03FAB9281DDA93B000548917 /* GraffitiFinderTests.swift */,
+				03FAB92A1DDA93B000548917 /* Info.plist */,
+			);
+			path = GraffitiFinderTests;
+			sourceTree = "<group>";
+		};
+		03FAB9321DDA93B000548917 /* GraffitiFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03FAB9331DDA93B000548917 /* GraffitiFinderUITests.swift */,
+				03FAB9351DDA93B000548917 /* Info.plist */,
+			);
+			path = GraffitiFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FAB90C1DDA93B000548917 /* GraffitiFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FAB9381DDA93B000548917 /* Build configuration list for PBXNativeTarget "GraffitiFinder" */;
+			buildPhases = (
+				03FAB9091DDA93B000548917 /* Sources */,
+				03FAB90A1DDA93B000548917 /* Frameworks */,
+				03FAB90B1DDA93B000548917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraffitiFinder;
+			productName = GraffitiFinder;
+			productReference = 03FAB90D1DDA93B000548917 /* GraffitiFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03FAB9231DDA93B000548917 /* GraffitiFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FAB93B1DDA93B000548917 /* Build configuration list for PBXNativeTarget "GraffitiFinderTests" */;
+			buildPhases = (
+				03FAB9201DDA93B000548917 /* Sources */,
+				03FAB9211DDA93B000548917 /* Frameworks */,
+				03FAB9221DDA93B000548917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FAB9261DDA93B000548917 /* PBXTargetDependency */,
+			);
+			name = GraffitiFinderTests;
+			productName = GraffitiFinderTests;
+			productReference = 03FAB9241DDA93B000548917 /* GraffitiFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03FAB92E1DDA93B000548917 /* GraffitiFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FAB93E1DDA93B000548917 /* Build configuration list for PBXNativeTarget "GraffitiFinderUITests" */;
+			buildPhases = (
+				03FAB92B1DDA93B000548917 /* Sources */,
+				03FAB92C1DDA93B000548917 /* Frameworks */,
+				03FAB92D1DDA93B000548917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FAB9311DDA93B000548917 /* PBXTargetDependency */,
+			);
+			name = GraffitiFinderUITests;
+			productName = GraffitiFinderUITests;
+			productReference = 03FAB92F1DDA93B000548917 /* GraffitiFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FAB9051DDA93B000548917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = VetekConsutling;
+				TargetAttributes = {
+					03FAB90C1DDA93B000548917 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BZY65TYX78;
+						ProvisioningStyle = Automatic;
+					};
+					03FAB9231DDA93B000548917 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BZY65TYX78;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03FAB90C1DDA93B000548917;
+					};
+					03FAB92E1DDA93B000548917 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BZY65TYX78;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03FAB90C1DDA93B000548917;
+					};
+				};
+			};
+			buildConfigurationList = 03FAB9081DDA93B000548917 /* Build configuration list for PBXProject "GraffitiFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FAB9041DDA93B000548917;
+			productRefGroup = 03FAB90E1DDA93B000548917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FAB90C1DDA93B000548917 /* GraffitiFinder */,
+				03FAB9231DDA93B000548917 /* GraffitiFinderTests */,
+				03FAB92E1DDA93B000548917 /* GraffitiFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FAB90B1DDA93B000548917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAB91E1DDA93B000548917 /* LaunchScreen.storyboard in Resources */,
+				03FAB91B1DDA93B000548917 /* Assets.xcassets in Resources */,
+				03FAB9161DDA93B000548917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAB9221DDA93B000548917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAB92D1DDA93B000548917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FAB9091DDA93B000548917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAB9191DDA93B000548917 /* GraffitiFinder.xcdatamodeld in Sources */,
+				03FAB9131DDA93B000548917 /* ViewController.swift in Sources */,
+				03FAB9111DDA93B000548917 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAB9201DDA93B000548917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAB9291DDA93B000548917 /* GraffitiFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAB92B1DDA93B000548917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAB9341DDA93B000548917 /* GraffitiFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FAB9261DDA93B000548917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FAB90C1DDA93B000548917 /* GraffitiFinder */;
+			targetProxy = 03FAB9251DDA93B000548917 /* PBXContainerItemProxy */;
+		};
+		03FAB9311DDA93B000548917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FAB90C1DDA93B000548917 /* GraffitiFinder */;
+			targetProxy = 03FAB9301DDA93B000548917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03FAB9141DDA93B000548917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FAB9151DDA93B000548917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03FAB91C1DDA93B000548917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FAB91D1DDA93B000548917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FAB9361DDA93B000548917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FAB9371DDA93B000548917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FAB9391DDA93B000548917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZY65TYX78;
+				INFOPLIST_FILE = GraffitiFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VetekConsulting.GraffitiFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03FAB93A1DDA93B000548917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZY65TYX78;
+				INFOPLIST_FILE = GraffitiFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VetekConsulting.GraffitiFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03FAB93C1DDA93B000548917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZY65TYX78;
+				INFOPLIST_FILE = GraffitiFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VetekConsulting.GraffitiFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraffitiFinder.app/GraffitiFinder";
+			};
+			name = Debug;
+		};
+		03FAB93D1DDA93B000548917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZY65TYX78;
+				INFOPLIST_FILE = GraffitiFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VetekConsulting.GraffitiFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraffitiFinder.app/GraffitiFinder";
+			};
+			name = Release;
+		};
+		03FAB93F1DDA93B000548917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZY65TYX78;
+				INFOPLIST_FILE = GraffitiFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VetekConsulting.GraffitiFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GraffitiFinder;
+			};
+			name = Debug;
+		};
+		03FAB9401DDA93B000548917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZY65TYX78;
+				INFOPLIST_FILE = GraffitiFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VetekConsulting.GraffitiFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GraffitiFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FAB9081DDA93B000548917 /* Build configuration list for PBXProject "GraffitiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAB9361DDA93B000548917 /* Debug */,
+				03FAB9371DDA93B000548917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FAB9381DDA93B000548917 /* Build configuration list for PBXNativeTarget "GraffitiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAB9391DDA93B000548917 /* Debug */,
+				03FAB93A1DDA93B000548917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03FAB93B1DDA93B000548917 /* Build configuration list for PBXNativeTarget "GraffitiFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAB93C1DDA93B000548917 /* Debug */,
+				03FAB93D1DDA93B000548917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03FAB93E1DDA93B000548917 /* Build configuration list for PBXNativeTarget "GraffitiFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAB93F1DDA93B000548917 /* Debug */,
+				03FAB9401DDA93B000548917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03FAB9171DDA93B000548917 /* GraffitiFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03FAB9181DDA93B000548917 /* GraffitiFinder.xcdatamodel */,
+			);
+			currentVersion = 03FAB9181DDA93B000548917 /* GraffitiFinder.xcdatamodel */;
+			path = GraffitiFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03FAB9051DDA93B000548917 /* Project object */;
+}
